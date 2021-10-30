@@ -1,7 +1,9 @@
 body {
-  background-color: green;
+  /* background-color: #599a72; */
+  background: linear-gradient(to bottom, #599a72, #dbe9e9);
+  height: 100vh;
 }
 h1 {
-  color: red;
+  color: white;
   font-size: 30px;
 }
