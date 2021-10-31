@@ -5,7 +5,14 @@ const About = () => {
   return (
     <div className="body">
       <div className="about-container">
-        <div className="logo">arruri</div>
+        <div
+          className="logo"
+          onClick={() => {
+            window.location.href = "http://localhost:3000/";
+          }}
+        >
+          arruri
+        </div>
         <div className="header">soo aruuri</div>
         <div className="content"></div>
         <div className="about">About Services</div>
