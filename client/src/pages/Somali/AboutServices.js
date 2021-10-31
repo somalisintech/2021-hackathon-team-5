@@ -1,12 +1,12 @@
 import React from "react";
-import "../styles/AboutServices.css";
+
 const AboutServices = () => {
   return (
     <div className="body">
       <div className="about-container">
         <div className="services-logo">arruri</div>
         <div className="services-container"></div>
-        <div className="services-header">About Services</div>
+        <div className="services-header">Ushaqeeynta</div>
 
         <div className="services-content">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -17,7 +17,7 @@ const AboutServices = () => {
         <div
           className="services-arrow"
           onClick={() => {
-            window.location.href = "http://localhost:3000/locations";
+            window.location.href = "http://localhost:3000/magalooyinka";
           }}
         ></div>
       </div>

@@ -50,11 +50,11 @@
   color: #ffffff;
 }
 
-.hero-content {
+.hero-somali {
   position: absolute;
   width: 282px;
   height: 25px;
-  left: 138px;
+  left: 108px;
   top: 640px;
   font-family: Montserrat;
   font-style: normal;
@@ -65,6 +65,24 @@
   align-items: center;
   text-align: center;
   color: #ffffff;
+  cursor: pointer;
+}
+.hero-english {
+  position: absolute;
+  width: 282px;
+  height: 25px;
+  left: 228px;
+  top: 640px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
 }
 
 .hero_line-1 {
