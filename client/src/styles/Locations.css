@@ -1,0 +1,142 @@
+@font-face {
+  font-family: poppins-bold;
+  src: url("../assets/fonts/Poppins/Poppins-Bold.ttf");
+}
+@font-face {
+  font-family: poppins;
+  src: url("../assets/fonts/Poppins/Poppins-Light.ttf");
+}
+@font-face {
+  font-family: chonburi;
+  src: url("../assets/fonts/Chonburi/Chonburi-Regular.ttf");
+}
+@font-face {
+  font-family: Montserrat;
+  src: url("../assets/fonts/Montserrat_Alternates/MontserratAlternates-Light.ttf");
+}
+
+.locations-header {
+  position: absolute;
+  width: 187px;
+  height: 54px;
+  left: 79px;
+  top: 167px;
+  font-family: Poppins-bold;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke: 1px black;
+  text-align: center;
+  letter-spacing: -0.3px;
+}
+.locations-container {
+  position: absolute;
+  width: 589px;
+  height: 590px;
+  left: -11px;
+  top: -52px;
+
+  background: radial-gradient(
+    30% 34% at 45% 53%,
+    #599a72 0%,
+    rgba(196, 196, 196, 0) 100%
+  );
+}
+.location1 {
+  position: absolute;
+  width: 202px;
+  height: 70px;
+  left: 77px;
+  top: 312px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: -0.3px;
+
+  color: #000000;
+}
+.location2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: -0.3px;
+
+  color: #000000;
+
+  position: absolute;
+  width: 308px;
+  height: 207px;
+  left: 62px;
+  top: 468px;
+}
+.location3 {
+  position: absolute;
+  width: 202px;
+  height: 48px;
+  left: 62px;
+  top: 605px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: -0.3px;
+
+  color: #000000;
+}
+.locations-set {
+  position: absolute;
+  width: 127px;
+  height: 36px;
+  left: 122px;
+  top: 731px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+
+  text-align: center;
+  letter-spacing: -0.3px;
+
+  color: #000000;
+}
+.locations-arrow {
+  position: absolute;
+  width: 239px;
+  height: 100px;
+  left: 264px;
+  top: 739px;
+  background-image: url("../assets/images/smallarrow.png");
+  background-repeat: no-repeat;
+}
+.locations-set {
+  position: absolute;
+  width: 257px;
+  height: 36px;
+  left: 22px;
+  top: 731px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+
+  text-align: center;
+  letter-spacing: -0.3px;
+
+  color: #000000;
+}

@@ -1,8 +1,30 @@
 body {
   /* background-color: #599a72; */
-  background: linear-gradient(to bottom, #599a72, #dbe9e9);
-  height: 100vh;
+  /* background: linear-gradient(to bottom, #599a72, #dbe9e9); */
+  /* height: 100vh; */
+  /* background: radial-gradient(
+    50% 50% at 50% 50%,
+    #599a72 0%,
+    rgba(196, 196, 196, 0) 100%
+  ); */
+  background-color: black;
 }
+@font-face {
+  font-family: poppins-light;
+  src: url("../src/assets/fonts/Poppins/Poppins-Light.ttf");
+}
+@font-face {
+  font-family: chonburi;
+  src: url("../src/assets/fonts/Chonburi/Chonburi-Regular.ttf");
+}
+@font-face {
+  font-family: poppins-light;
+  src: url("../src/assets/fonts/Poppins/Poppins-Light.ttf");
+}
+h1 {
+  font-family: chonburi;
+}
+
 h1 {
   color: white;
   font-size: 30px;
