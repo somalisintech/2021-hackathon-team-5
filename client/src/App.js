@@ -7,6 +7,7 @@ import AboutServices from "./pages/AboutServices";
 import SomaliAboutServices from "./pages/Somali/AboutServices";
 import Locations from "./pages/Locations";
 import SomaliLocations from "./pages/Somali/Locations";
+import UserPickup from "./pages/UserPickup";
 // mahads components below
 import SignIn from "./pages/SignIn";
 import Login from "./pages/Login";
@@ -24,7 +25,7 @@ function App() {
         <Route path="/somali/ushaqeeynta" component={SomaliAboutServices} />
         <Route path="/locations" component={Locations} />
         <Route path="/magalooyinka" component={SomaliLocations} />
-
+        <Route path="/user-pickup" component={UserPickup} />
         {/* Mahad components below */}
         <Route path="/signup" exact component={SignIn} />
         <Route path="/login" exact component={Login} />

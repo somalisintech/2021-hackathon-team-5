@@ -1,0 +1,44 @@
+@font-face {
+  font-family: poppins-bold;
+  src: url("../assets/fonts/Poppins/Poppins-Bold.ttf");
+}
+@font-face {
+  font-family: poppins;
+  src: url("../assets/fonts/Poppins/Poppins-Light.ttf");
+}
+@font-face {
+  font-family: chonburi;
+  src: url("../assets/fonts/Chonburi/Chonburi-Regular.ttf");
+}
+@font-face {
+  font-family: Montserrat;
+  src: url("../assets/fonts/Montserrat_Alternates/MontserratAlternates-Light.ttf");
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 25%;
+}
+.counter_plus {
+  font-family: poppins;
+  font-size: 15px;
+  text-align: center;
+}
+.counter_minus {
+  font-family: poppins;
+  font-size: 15px;
+}
+.counter_number {
+  font-family: poppins;
+  font-size: 25px;
+}
+button {
+  border: 1px solid black;
+  background: none;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
