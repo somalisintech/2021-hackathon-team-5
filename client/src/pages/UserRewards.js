@@ -2,6 +2,7 @@ import React from "react";
 import HeaderBar from "../generalcomponents/HeaderBar";
 import { Link } from "react-router-dom";
 import purplestar from "../assets/rewards-puprle-star.png";
+import "../styles/User-home-rewards.css";
 //
 function UserRewards() {
   return (
