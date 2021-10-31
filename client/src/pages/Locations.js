@@ -15,7 +15,7 @@ const Locations = () => {
         <div
           className="locations-arrow"
           onClick={() => {
-            window.location.href = "http://localhost:3000/sign-in";
+            window.location.href = "http://localhost:3000/signup";
           }}
         ></div>
       </div>
