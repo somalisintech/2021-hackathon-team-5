@@ -24,6 +24,7 @@ function App() {
         <Route path="/somali/ushaqeeynta" component={SomaliAboutServices} />
         <Route path="/locations" component={Locations} />
         <Route path="/magalooyinka" component={SomaliLocations} />
+
         {/* Mahad components below */}
         <Route path="/signup" exact component={SignIn} />
         <Route path="/login" exact component={Login} />
