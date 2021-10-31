@@ -15,7 +15,6 @@ const Locations = () => {
         </div>
         <div className="locations-container"></div>
         <div className="locations-header">Locations</div>
-
         <div className="location1">Mogadishu</div>
         <div className="location2">Hargeisa</div>
         <div className="location3">Garowe</div>

@@ -1,0 +1,131 @@
+@font-face {
+  font-family: poppins-bold;
+  src: url("../assets/fonts/Poppins/Poppins-Bold.ttf");
+}
+@font-face {
+  font-family: poppins;
+  src: url("../assets/fonts/Poppins/Poppins-Light.ttf");
+}
+@font-face {
+  font-family: chonburi;
+  src: url("../assets/fonts/Chonburi/Chonburi-Regular.ttf");
+}
+@font-face {
+  font-family: Montserrat;
+  src: url("../assets/fonts/Montserrat_Alternates/MontserratAlternates-Light.ttf");
+}
+.user-container {
+  position: relative;
+  width: 414px;
+  height: 896px;
+
+  background: #ffffff;
+  /* background-image: linear-gradient(to bottom right, #c4c4c4, #ffffff); */
+  border-radius: 40px;
+}
+
+.pickup-header {
+  position: absolute;
+  width: 330px;
+  height: 24px;
+  left: 53px;
+  top: 180px;
+  font-family: poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
+.pickup-plastic {
+  background-image: url("../assets/images/button.png");
+  position: absolute;
+  width: 158.77px;
+  height: 177.67px;
+  left: 28px;
+  top: 259px;
+}
+
+.pickup-waste {
+  position: absolute;
+  width: 158.77px;
+  height: 177.67px;
+  left: 227.44px;
+  top: 259px;
+  background-image: url("../assets/images/waste.png");
+}
+.pickup-garbage {
+  position: absolute;
+  width: 164.44px;
+  height: 177.67px;
+  left: 123px;
+  top: 528.08px;
+  background-image: url("../assets/images/garbage.png");
+  background-repeat: no-repeat;
+}
+.counter {
+  position: absolute;
+  width: 158.77px;
+  height: 219.08px;
+  left: 30px;
+  top: 115px;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: poppins;
+  font-size: 15px;
+  text-align: center;
+}
+.counter1 {
+  position: absolute;
+  width: 158.77px;
+  height: 219.08px;
+  left: 30px;
+  top: 115px;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: poppins;
+  font-size: 15px;
+  text-align: center;
+}
+.counter2 {
+  position: absolute;
+  width: 153.57px;
+  height: 23.92px;
+  left: 37.03px;
+  top: 213.23px;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: poppins;
+  font-size: 15px;
+  text-align: center;
+}
+.btn {
+  position: absolute;
+  width: 40%;
+  height: 24px;
+  left: 58px;
+  top: 801px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  padding: 1rem 4rem;
+  border-radius: 30px;
+}

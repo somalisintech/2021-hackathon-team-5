@@ -36,7 +36,10 @@ function UserHome() {
             </div>
           </div>
           <div className="bottom-box">
-            <button className="md-button">Schedule a pick up</button>
+            <Link to="/user-pickup">
+              <button className="md-button">Schedule a pick up</button>
+            </Link>
+
             <Link
               style={{ textDecoration: "none", color: "black" }}
               to="user-rewards"
