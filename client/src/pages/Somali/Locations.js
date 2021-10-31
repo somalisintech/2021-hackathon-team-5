@@ -1,17 +1,11 @@
 import React from "react";
+import Logo from "../../generalcomponents/Logo";
 
 const Locations = () => {
   return (
     <div className="body">
       <div className="about-container">
-        <div
-          className="services-logo"
-          onClick={() => {
-            window.location.href = "http://localhost:3000/";
-          }}
-        >
-          arruri
-        </div>
+        <Logo />
         <div className="locations-container"></div>
         <div className="locations-header">Magalooyinka</div>
 

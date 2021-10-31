@@ -6,7 +6,7 @@ const Home = () => {
     <div className="body">
       <div className="container">
         <div className="hero-image"></div>
-        <h1 className="hero-header"> soo arruri</h1>
+        <h1 className="hero-header"> soo aruuri</h1>
         <div
           className="hero-somali"
           onClick={() => {

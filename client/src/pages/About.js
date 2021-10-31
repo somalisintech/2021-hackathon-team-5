@@ -11,7 +11,7 @@ const About = () => {
             window.location.href = "http://localhost:3000/";
           }}
         >
-          arruri
+          aruuri
         </div>
         <div className="header">soo aruuri</div>
         <div className="content"></div>

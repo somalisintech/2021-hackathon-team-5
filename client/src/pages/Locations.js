@@ -11,7 +11,7 @@ const Locations = () => {
             window.location.href = "http://localhost:3000/";
           }}
         >
-          arruri
+          aruuri
         </div>
         <div className="locations-container"></div>
         <div className="locations-header">Locations</div>

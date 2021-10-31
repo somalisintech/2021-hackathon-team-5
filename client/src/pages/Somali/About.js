@@ -1,18 +1,12 @@
 import React from "react";
+import Logo from "../../generalcomponents/Logo";
 import "../../styles/About.css";
 const About = () => {
   return (
     <div>
       <div className="body">
         <div className="about-container">
-          <div
-            className="logo"
-            onClick={() => {
-              window.location.href = "http://localhost:3000/";
-            }}
-          >
-            arruri
-          </div>
+          <Logo />
           <div className="header">soo aruuri</div>
           <div className="content"></div>
           <div className="about">ushaqeeynta</div>
