@@ -1,0 +1,134 @@
+@font-face {
+  font-family: poppins-light;
+  src: url("../assets/fonts/Poppins/Poppins-Light.ttf");
+}
+@font-face {
+  font-family: chonburi;
+  src: url("../assets/fonts/Chonburi/Chonburi-Regular.ttf");
+}
+@font-face {
+  font-family: Montserrat;
+  src: url("../assets/fonts/Montserrat_Alternates/MontserratAlternates-Light.ttf");
+}
+
+.hero-image {
+  background-image: url("../assets/images/trash.png");
+  position: absolute;
+  width: 363px;
+  height: 412px;
+  left: 25px;
+  top: 90px;
+  border-radius: 400px;
+}
+.body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* height: auto; */
+  margin: 3rem;
+}
+.container {
+  position: relative;
+  width: 414px;
+  height: 896px;
+
+  background: linear-gradient(180deg, #599a72 0%, rgba(89, 154, 114, 0) 100%);
+  border-radius: 40px;
+}
+.hero-header {
+  position: absolute;
+  width: 1037px;
+  height: 411px;
+  left: 73px;
+  top: 523px;
+  font-family: Chonburi;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 60px;
+
+  color: #ffffff;
+}
+
+.hero-content {
+  position: absolute;
+  width: 282px;
+  height: 25px;
+  left: 138px;
+  top: 640px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+.hero_line-1 {
+  position: absolute;
+  width: 70px;
+  height: 0px;
+  left: 290px;
+  top: 746px;
+  border: 1px solid #ffffff;
+  transform: rotate(180deg);
+  margin-right: 1rem;
+}
+.hero_line-2 {
+  position: absolute;
+  width: 70px;
+  height: 0px;
+  left: 180px;
+  top: 746px;
+  border: 1px solid #ffffff;
+  transform: rotate(180deg);
+  margin-right: 1rem;
+}
+.hero_line-3 {
+  position: absolute;
+  width: 70px;
+  height: 0px;
+  left: 70px;
+  top: 746px;
+  border: 1px solid #ffffff;
+  transform: rotate(180deg);
+  margin-right: 1rem;
+}
+.sign-in {
+  position: absolute;
+  width: 133.44px;
+  height: 24.67px;
+  left: 22px;
+  top: 839.51px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
+.sign-up {
+  position: absolute;
+  width: 270px;
+  height: 61px;
+  left: 147.46px;
+  top: 821px;
+
+  background: #ffffff;
+  border-radius: 45px;
+}
+.join {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+}
