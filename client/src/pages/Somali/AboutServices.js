@@ -4,7 +4,14 @@ const AboutServices = () => {
   return (
     <div className="body">
       <div className="about-container">
-        <div className="services-logo">arruri</div>
+        <div
+          className="services-logo"
+          onClick={() => {
+            window.location.href = "http://localhost:3000/";
+          }}
+        >
+          arruri
+        </div>
         <div className="services-container"></div>
         <div className="services-header">Ushaqeeynta</div>
 

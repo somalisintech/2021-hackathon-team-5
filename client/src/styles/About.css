@@ -38,7 +38,7 @@
   height: 25px;
   left: 50px;
   top: 74px;
-
+  cursor: pointer;
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
@@ -123,6 +123,7 @@
   left: 223px;
   top: 685px;
   background-image: url("../assets/images/down-arrow.png");
+  cursor: pointer;
 }
 .content {
   position: absolute;
@@ -130,6 +131,5 @@
   height: 0px;
   left: 169px;
   top: 406px;
-
   border: 1px solid #000000;
 }

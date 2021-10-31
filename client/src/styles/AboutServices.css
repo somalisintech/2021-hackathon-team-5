@@ -44,7 +44,7 @@
   font-weight: 600;
   font-size: 32px;
   line-height: 39px;
-
+  cursor: pointer;
   color: #000000;
 }
 .services-header {
@@ -102,6 +102,7 @@
   left: 98px;
   top: 723px;
   background-image: url("../assets/images/rightarrow.png");
+  cursor: pointer;
 }
 .services-star1 {
   position: absolute;
