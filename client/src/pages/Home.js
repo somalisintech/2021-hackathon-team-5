@@ -13,7 +13,22 @@ const Home = () => {
       <div className="container">
         <div className="hero-image"></div>
         <h1 className="hero-header"> soo arruri</h1>
-        <div className="hero-content">Request a pick up.</div>
+        <div
+          className="hero-somali"
+          onClick={() => {
+            window.location.href = "http://localhost:3000/somali/about";
+          }}
+        >
+          Somali
+        </div>
+        <div
+          className="hero-english"
+          onClick={() => {
+            window.location.href = "http://localhost:3000/about";
+          }}
+        >
+          English
+        </div>
         <div className="hero_line-1"></div>
         <div className="hero_line-2"></div>
         <div className="hero_line-3"></div>

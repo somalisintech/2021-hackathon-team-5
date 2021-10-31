@@ -14,7 +14,7 @@ const About = () => {
         <div
           className="arrow"
           onClick={() => {
-            window.location.href = "http://localhost:3001/about-services";
+            window.location.href = "http://localhost:3000/about-services";
           }}
         ></div>
       </div>
