@@ -1,0 +1,123 @@
+@font-face {
+  font-family: poppins-bold;
+  src: url("../assets/fonts/Poppins/Poppins-Bold.ttf");
+}
+@font-face {
+  font-family: poppins;
+  src: url("../assets/fonts/Poppins/Poppins-Light.ttf");
+}
+@font-face {
+  font-family: chonburi;
+  src: url("../assets/fonts/Chonburi/Chonburi-Regular.ttf");
+}
+@font-face {
+  font-family: Montserrat;
+  src: url("../assets/fonts/Montserrat_Alternates/MontserratAlternates-Light.ttf");
+}
+
+.body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* height: auto; */
+  margin: 2rem;
+}
+.about-container {
+  position: relative;
+  width: 414px;
+  height: 896px;
+
+  background: #ffffff;
+  background-image: linear-gradient(to bottom right, #c4c4c4, #ffffff);
+
+  border-radius: 40px;
+}
+.services-logo {
+  position: absolute;
+  width: 143px;
+  height: 1px;
+  left: 50px;
+  top: 74px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+
+  color: #000000;
+}
+.services-header {
+  position: absolute;
+  width: 274px;
+  height: 54px;
+  left: 57px;
+  top: 263px;
+
+  font-family: Poppins-Bold;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: -0.3px;
+
+  color: #000000;
+}
+.services-content {
+  position: absolute;
+  width: 263px;
+  height: 252px;
+  left: 41px;
+  top: 406px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 36px;
+
+  color: #000000;
+}
+
+.services-container {
+  position: absolute;
+  width: 589px;
+  height: 590px;
+  left: -15px;
+  top: 270px;
+
+  background: radial-gradient(
+    35% 40% at 43% 60%,
+    #599a72 0%,
+    rgba(196, 196, 196, 0) 100%
+  );
+}
+.services-arrow {
+  position: absolute;
+  width: 233px;
+  height: 50px;
+  left: 98px;
+  top: 723px;
+  background-image: url("../assets/images/rightarrow.png");
+}
+.services-star1 {
+  position: absolute;
+  width: 133px;
+  height: 50px;
+  left: 298px;
+  top: 473px;
+  background-image: url("../assets/images/long.png");
+  background-repeat: no-repeat;
+}
+.services-star2 {
+  position: absolute;
+  width: 133px;
+  height: 150px;
+  left: 230px;
+  top: 573px;
+  background-image: url("../assets/images/wide.png");
+  background-repeat: no-repeat;
+}
