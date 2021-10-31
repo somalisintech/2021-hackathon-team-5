@@ -7,6 +7,11 @@ import AboutServices from "./pages/AboutServices";
 import SomaliAboutServices from "./pages/Somali/AboutServices";
 import Locations from "./pages/Locations";
 import SomaliLocations from "./pages/Somali/Locations";
+// mahads components below
+import SignIn from "./pages/SignIn";
+import Login from "./pages/Login";
+import UserHome from "./pages/UserHome";
+import UserRewards from "./pages/UserRewards";
 
 function App() {
   return (
@@ -19,6 +24,11 @@ function App() {
         <Route path="/somali/ushaqeeynta" component={SomaliAboutServices} />
         <Route path="/locations" component={Locations} />
         <Route path="/magalooyinka" component={SomaliLocations} />
+        {/* Mahad components below */}
+        <Route path="/signup" exact component={SignIn} />
+        <Route path="/login" exact component={Login} />
+        <Route path="/user-home" exact component={UserHome} />{" "}
+        <Route path="/user-rewards" exact component={UserRewards} />
       </Switch>
     </Router>
   );
