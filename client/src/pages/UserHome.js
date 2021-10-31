@@ -2,6 +2,7 @@ import React from "react";
 import HeaderBar from "../generalcomponents/HeaderBar";
 import { Link } from "react-router-dom";
 import somaligirl from "../assets/somaligirl.jpeg";
+import "../styles/User-home-rewards.css";
 //
 function UserHome() {
   return (

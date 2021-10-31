@@ -3,6 +3,7 @@ import google from "../assets/google.png";
 import apple from "../assets/apple.png";
 import HeaderBar from "../generalcomponents/HeaderBar";
 import { Link } from "react-router-dom";
+import "../styles/Signup-login.css";
 function SignIn() {
   return (
     <div className="wrapper">
