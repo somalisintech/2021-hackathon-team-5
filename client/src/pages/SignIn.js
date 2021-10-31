@@ -2,12 +2,15 @@ import React from "react";
 import google from "../assets/google.png";
 import apple from "../assets/apple.png";
 import HeaderBar from "../generalcomponents/HeaderBar";
-
+import { Link } from "react-router-dom";
 function SignIn() {
   return (
     <div className="wrapper">
-      <div className="signin-login-container">
+      <div className="container signup">
         <HeaderBar />
+        <Link style={{ textDecoration: "none", color: "white" }} to="locations">
+          <p className="backwardarrow"> ← </p>
+        </Link>
         <h1 className="title">arurri</h1>
         <div className="signin-screen">
           <div className="top-box">
@@ -26,12 +29,16 @@ function SignIn() {
             <input className="inputfield" placeholder="Full name" />
             <input className="inputfield" placeholder="Email" />
             <input className="inputfield" placeholder="Password" />
-            <button className="md-button">Create account</button>
+            <Link to="user-home">
+              <button className="md-button">Create account</button>
+            </Link>
           </div>
           {/*  */}
           <div className="bottom-box login">
             <p>Already a member ?</p>
-            <p className="bb-button">Login</p>
+            <Link style={{ textDecoration: "none" }} to="login">
+              <p className="bb-button">Login</p>
+            </Link>
           </div>
         </div>
       </div>
